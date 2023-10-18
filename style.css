@@ -183,7 +183,24 @@ nav ul li a:hover{
     transform:translateY(-10px) ;
 }
  /* services end */
-
+ /* progress line start */
+ section{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .container1{
+   width:600px ; 
+   height: 500px;
+   padding: 75px 90px;
+  margin-left:120px ;
+ }
+ .heading1{
+ text-align: center;
+ text-decoration: underline;
+ text-underline-offset: 10px;
+ text-decoration-thickness:5px;
+ margin-bottom: 50px;
+ }
 
 
 
