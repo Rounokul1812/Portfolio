@@ -141,6 +141,8 @@ nav ul li a:hover{
     grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }       
 .services-list div{
     background-color: transparent;
@@ -314,13 +316,13 @@ nav ul li a:hover{
   letter-spacing: 1px;
   word-spacing: 2px;
   color: #fff;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 888;
   text-transform: uppercase;
 }
 .wrapper div {
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   border: 2px solid rgb(71, 222, 41);
   border-radius: 50px;
   position: absolute;
@@ -345,7 +347,7 @@ nav ul li a:hover{
 .wrapper div:nth-child(2) {
   top: 60%;
   left: 80%;
-  animation: animate 10s linear infinite;
+  animation: animate s linear infinite;
 }
 .wrapper div:nth-child(3) {
   top: 40%;
@@ -421,8 +423,9 @@ nav ul li a:hover{
   }
 }
 /* bubble animation end */
+/* portfoilo start */
 .portfolio{
-margin: 10px auto;
+margin: 20px auto;
 padding: 0 10%;
 padding-bottom: 10px;
 text-transform: capitalize;
@@ -434,7 +437,7 @@ text-transform: capitalize;
 }
 .container{
 display: grid;
-gap: 15px;
+gap: 35px;
 grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
 }
 .box{
@@ -470,6 +473,10 @@ line-height: 1.6;
   color: white;
   text-decoration: none;
 }
+.button2:hover{
+  background-color: black;
+  transition: 0.1s;
+}
 /*  portfoilo end*/
 /* contact start */
 .Contact{
@@ -478,7 +485,6 @@ line-height: 1.6;
   align-items: center;
   gap: 3rem;
   padding-left: 30px;
-  margin-top: 130px;
 }
 .contact-text h2{
   font-size: 40px;
@@ -511,6 +517,46 @@ line-height: 1.6;
    font-weight: 600;
    transition: all .40s ease;
 }
-.contact-list a :hover{
+.contact-list li a :hover{
   transform: scale(1.01) translateY(-5px);
+  color:rgb(71, 222, 41) ;
 }
+.contact-icon i{
+  display: inline-flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  font-size: 30px;
+  color: rgb(71, 222, 41);
+  text-decoration: none;
+}
+.contact-form form{
+  position: relative;
+  padding-top: 200px;
+}
+.contact-form form input,form textarea{
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 18px;
+  background: #948d8d55;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.contact-form textarea{
+  resize: none;
+  height: 220px;
+}
+.contact-form form .send{
+  display: inline-block;
+  padding: 12px 30px;
+  background-color:  rgb(71, 222, 41);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+}
+/* contact end */
